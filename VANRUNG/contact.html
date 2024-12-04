@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return false;">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="input_field">
+                <input type="email" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <input type="number" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <input type="date" placeholder="Date" id="date">
+            </div>
+            <div class="input_field">
+               <input type="time" placeholder="Name" id="time">
+            </div>
+            <div class="input_field">
+              <input type="text" placeholder="Message" id="Message">
+           </div>
+           <button class="btn-back" onclick="goBack()">Back To Home Shop</button>
+            <div class="btn">
+                <input type="submit" value="GET A CALL" onclick="return validate();">
+            </div>
+        </form>
+    </div>
+    <script src="contact.js"></script>
+    <script>
+        // JavaScript để xử lý sự kiện "Back"
+        function goBack() {
+            window.history.back(); // Quay lại trang trước đó trong lịch sử trình duyệt
+        }
+    </script>
+</body>
+</html>

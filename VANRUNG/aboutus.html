@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us Section</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="aboutus.css">
+</head>	
+<body>
+	<div class="section">
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Us</h1>
+				</div>
+				<div class="content">
+					<h3>Nguyen Duy Thanh </h3>
+					<p> The process of self-change and self-improvement is a long journey filled with challenges and self-discovery. Initially, we recognize our weaknesses and flaws in our character and way of living. Gradually, we learn to accept these shortcomings, yet never stop striving for improvement. Change isn't just about adjusting habits or gaining new knowledge; it's about shifting our mindset, attitude, and perspective on the world around us. Every small step forward is a victory, and over time, we become a better version of ourselves. Most importantly, in this journey, we learn to love and respect ourselves more, which opens the door to overall growth in every aspect of life.</p>
+					<div class="button" onclick="showAlertAndRedirect()">
+						<a href="">Read More</a>
+					</div>
+					<div class="button" onclick="goBack()">
+						<a href="">Go Back</a>
+					</div>
+				</div>
+				<div class="social">
+					<a href=""><i class="fab fa-facebook-f"></i></a>
+					<a href=""><i class="fab fa-twitter"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="image-section">
+				<img src="/IMG/ABOUT.jpg">
+			</div>
+		</div>
+	</div>
+
+    <script>
+        function showAlertAndRedirect() {
+            // Hiển thị thông báo
+            alert("You will be redirected to my personal page.");
+
+            // Chuyển hướng đến trang cá nhân Facebook sau 2 giây
+            setTimeout(function() {
+                window.location.href = "https://www.facebook.com/fptbtec?locale=vi_VN"; // Thay đổi đường dẫn này thành URL trang Facebook của bạn
+            }, 2000); // 2000ms = 2 giây
+        }
+		function goBack() {
+            window.history.back(); // Quay lại trang trước đó trong lịch sử trình duyệt
+        }
+    </script>
+</body>
+</html>

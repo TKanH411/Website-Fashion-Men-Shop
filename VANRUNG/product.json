@@ -1,0 +1,134 @@
+[
+{
+    "id":1,
+    "name":"TS101",
+    "price":200,
+    "image":"../assets/images/A1.png"
+
+
+},
+{
+    "id":2,
+    "name":"TS201",
+    "price":210,
+    "image":"../assets/images/A2.png"
+},
+{
+    "id":3,
+    "name":"TS301",
+    "price":200,
+    "image":"../assets/images/A3.png"
+
+
+},
+{
+    "id":4,
+    "name":"TS401",
+    "price":190,
+    "image":"../assets/images/A4.png"
+},
+{
+    "id":5,
+    "name":"TS501",
+    "price":200,
+    "image":"../assets/images/A5.png"
+
+
+},
+{
+    "id":6,
+    "name":"SN101",
+    "price":200,
+    "image":"../assets/images/G1.png"
+
+
+},
+{
+    "id":7,
+    "name":"SN201",
+    "price":200,
+    "image":"../assets/images/G2.png"
+
+
+},
+
+{
+    "id":8,
+    "name":"SN301",
+    "price":200,
+    "image":"../assets/images/G3.png"
+
+
+},
+{
+    "id":9,
+    "name":"SN401",
+    "price":200,
+    "image":"../assets/images/G4.png"
+
+
+},
+{
+    "id":10,
+    "name":"SN501",
+    "price":200,
+    "image":"../assets/images/G5.png"
+
+
+},
+
+{
+    "id":11,
+    "name":"JN101",
+    "price":200,
+    "image":"../assets/images/J1.png"
+
+
+},
+{
+    "id":13,
+    "name":"JN201",
+    "price":200,
+    "image":"../assets/images/J2.png"
+
+
+},
+{
+    "id":14,
+    "name":"JN301",
+    "price":200,
+    "image":"../assets/images/J3.png"
+
+
+},
+{
+    "id":15,
+    "name":"QN101",
+    "price":200,
+    "image":"../assets/images/Q1.png"
+
+
+},
+{
+    "id":16,
+    "name":"QN201",
+    "price":200,
+    "image":"../assets/images/Q2.png"
+
+
+},
+{
+    "id":17,
+    "name":"QN301",
+    "price":200,
+    "image":"../assets/images/Q3.png"
+
+
+}
+
+
+
+
+
+
+]
